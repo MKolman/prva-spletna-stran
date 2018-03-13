@@ -1,2 +1,2 @@
-#release: python baza.py
-web: gunicorn app:app --log-file=-
+release: python baza.py
+web: gunicorn main:app --log-file=-
